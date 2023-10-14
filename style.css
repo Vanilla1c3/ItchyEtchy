@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.container {
+    background-color: black;
+    height: 600px;
+    width: 600px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: solid grey 0.5px;
+    box-sizing: border-box;
+}
